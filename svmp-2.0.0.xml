@@ -472,7 +472,7 @@ limitations under the License.
     <copyfile src="build-svmp.sh" dest="build-svmp.sh" />
   </project>
   <project path="external/svmp/svmpd" remote="svmp" revision="svmp-2.0.0" name="android_external_svmp_eventserver" />
-  <project path="external/svmp/svmp-protocol-def" remote="svmp-2.0.0" revision="master" name="svmp-protocol-def" />
+  <project path="external/svmp/svmp-protocol-def" remote="svmp" revision="svmp-2.0.0" name="svmp-protocol-def" />
 
   <!-- SVMP: mainline android projects we patched -->
   <project path="bootable/diskinstaller" remote="svmp" revision="svmp-2.0.0" name="android_bootable_diskinstaller" />
